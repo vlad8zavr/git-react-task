@@ -1,9 +1,5 @@
+
 :root {
-    /* YS Text */
-    --font-YS-Text: sans-serif;
-    --font-PT-Mono: PT Mono; }
-  
-  :root {
     /* background */
     --background-dark-gray: #4F4F4F;
     --background-light-gray: #F5F5F5;
@@ -33,12 +29,5 @@
     --text-redactor-string: #2073C2;
     --text-current-commit-violet: #6B69C7;
     --text-current-commit-green: #19BC4D;
-    --text-current-commit-comment: #33A533; }
-  
-  .author_first-letter_red:first-letter {
-    color: var(--text-red); }
-  
-  pre {
-    font-family: var(--font-PT-Mono);
-    margin: 0; }
-  
+    --text-current-commit-comment: #33A533;
+}
