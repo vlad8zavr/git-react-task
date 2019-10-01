@@ -7,12 +7,15 @@ import CurrentInfo from '../contents/CurrentInfo/CurrentInfo';
 
 import MainMenu from '../contents/MainMenu/MainMenu';
 
+import ContentArea from '../contents/ContentArea/ContentArea';
+
 export default function Main() {
     return (
-        <main class="main">
+        <main className="main">
             <CurrentPath />
             <CurrentInfo />
             <MainMenu />
+            <ContentArea />
         </main>
     );
 }
